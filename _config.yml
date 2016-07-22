@@ -7,7 +7,6 @@ baseurl: ""
 # the subpath of your site, e.g. /blog/
 url: "/18.20"
 
-twitter_username: ""
 github_username: "AoLab"
 
 # Build settings
