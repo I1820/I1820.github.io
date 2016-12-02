@@ -393,31 +393,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
     font-style: italic;
 }
 
-.reveal pre {
-    display: block;
-    position: relative;
-    width: 90%;
-    margin: 20px auto;
-    text-align: left;
-    font-size: 0.55em;
-    font-family: monospace;
-    line-height: 1.2em;
-    word-wrap: break-word;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
-}
-
-.reveal code {
-    font-family: monospace;
-}
-
-.reveal pre code {
-    display: block;
-    padding: 5px;
-    overflow: auto;
-    max-height: 400px;
-    word-wrap: normal;
-}
-
 .reveal table {
     margin: auto;
     border-collapse: collapse;
@@ -467,6 +442,61 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal small * {
     vertical-align: top;
+}
+
+/*********************************************
+ * CODES
+ *********************************************/
+
+.reveal code,
+.reveal kbd,
+.reveal pre,
+.reveal samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.reveal code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+.reveal kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.reveal kbd kbd {
+    padding: 0;
+    font-size: 100%;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.reveal pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #282828;
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.reveal pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
 }
 
 /*********************************************
