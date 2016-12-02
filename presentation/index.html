@@ -87,12 +87,12 @@
       <section>
         <h2>Lamp Model in I1820</h2>
         <pre>
-        {
-            "type": "lamp",
-            "statistics": [],
-            "master": "actuator",
-            "settings": ["on"]
-        }
+{
+    "type": "lamp",
+    "statistics": [],
+    "master": "actuator",
+    "settings": ["on"]
+}
         </pre>
       </section>
     </section>
@@ -136,6 +136,15 @@
           <dt>Notifier Plugin</dt>
           <dd>Plugin that sends notification to your target device</dd>
         </dl>
+      </section>
+      <section>
+        <h2>How we chain the plugins</h2>
+        <ul>
+          <li>Create a chain</li>
+          <li>Add filters and notifiers</li>
+          <li>While filters return <code>True</code> chain continue to run</li>
+          <li>While chain continue to run notifers run and notify your devices</li>
+        </ul>
       </section>
     </section>
     <section>
