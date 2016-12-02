@@ -489,6 +489,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: #f5f5f5;
     border: 1px solid #cccccc;
     border-radius: 4px;
+    text-align: left;
 }
 .reveal pre code {
     padding: 0;
