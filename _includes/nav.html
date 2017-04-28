@@ -6,9 +6,9 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
-      {% for _page in site.pages %}
+      {% for p in site.pages %}
         <li class="nav-item">
-          <a class="nav-link" href="{{_page.url}}">{{_page.title}}</a>
+          <a class="nav-link {% if p.url == page.url %}active{% endif %}" href="{{p.url}}">{{p.title}}</a>
         </li>
       {% endfor %}
 			<li class="nav-item">
