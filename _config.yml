@@ -1,13 +1,13 @@
 # Site settings
 title: "I1820"
-email: ":)"
+email: "parham.alvani@gmail.com"
 description: "I1820 is your IoT Middleware solution"
 # the base hostname & protocol for your site
 baseurl: ""
 # the subpath of your site, e.g. /blog/
-url: "/I1820"
+url: "/"
 
-github_username: "AoLab"
+github_username: "I1820"
 
 # Build settings
 markdown: kramdown
