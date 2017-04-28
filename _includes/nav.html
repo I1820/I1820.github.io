@@ -1,19 +1,19 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/">AoLab</a>
-			<a class="navbar-brand page-scroll" href="#">I1820</a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="presentation">Presentation</a>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container-fluid">
+	  <a class="navbar-brand" href="/">I1820</a>
+		
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+      {% for post in site.posts %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{page.url}}">{{page.title}}</a>
+        </li>
+      {% endfor %}
+				<li class="nav-item">
+					<a class="nav-link" href="presentation">Presentation</a>
 				</li>
 			</ul>
 		</div>
