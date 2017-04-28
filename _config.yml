@@ -2,12 +2,15 @@
 title: "I1820"
 email: "parham.alvani@gmail.com"
 description: "I1820 is your IoT Middleware solution"
+
 # the base hostname & protocol for your site
 baseurl: ""
+
 # the subpath of your site, e.g. /blog/
-url: "/"
+url: "https://I1820.github.io"
 
 github_username: "I1820"
+
 
 # Build settings
 markdown: kramdown
