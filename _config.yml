@@ -1,16 +1,27 @@
 # Site settings
-title: "I1820"
-email: "parham.alvani@gmail.com"
-description: "I1820 is your IoT Middleware solution"
+title: I1820
+description: "Good Days, Good Things"
+repository: "I1820/I1820.github.io"
 
-# the base hostname & protocol for your site
-baseurl: ""
+# Secondary Parameters
+header-img: img/header.jpg
+headercolor: "#FFFFFF"
+logo: img/logo.png
 
-# the subpath of your site, e.g. /blog/
-url: "https://I1820.github.io"
-
-github_username: "I1820"
-
+# Tertiary Parameters
+github_username: I1820
+project_repository: I1820.github.io
 
 # Build settings
+gems:
+  - jekyll-paginate
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude:
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
