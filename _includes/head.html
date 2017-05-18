@@ -25,6 +25,12 @@
   <!-- Pygments Github CSS -->
   <link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}">
 
+  <!-- slide pages -->
+  {% if page.layout == 'slide' %}
+    <link rel="stylesheet" href="{{'/css/reveal.css' | relative_url}}">
+    <link rel="stylesheet" href="{{'/css/theme/default.css' | relative_url | replace: 'default',page.theme}}" id="theme">
+  {% endif %}
+
   <!-- Custom Fonts -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
