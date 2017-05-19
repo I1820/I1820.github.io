@@ -19,52 +19,6 @@ layout: default
     </div>
 </header>
 
-
-<div class="row">
-{% for member in site.data.members %}
-  {% if member.name == page.author %}
-    <div class="col-md-2">
-      <img src="{{ member.avatar }}" alt="{{member.name}} avatar" class="img-thumbnail">
-    </div>
-    <div class="col-md-4">
-      <h1>{{ member.name }}</h1>
-      <h2>{{ member.role }}</h2>
-
-      {% for social in member.socials %}
-        <a href="{{social[1]}}"><i class="fa fa-{{social[0]}}" aria-hidden="true"></i></a>
-      {% endfor %}
-      {% if member.url %}
-        <a href="{{member.url}}"><i class="fa fa-user" aria-hidden="true"></i></a>
-      {% endif %}
-
-      <br>
-
-      {% if member.bio %}
-        {{ member.bio }}
-      {% endif %}
-
-      <br>
-
-      {{ member.timeline }}
-    </div>
-  {% endif %}
-{% endfor %}
-
-<div class="col-md-6">
-  <h4> Recently by the same author: </h4>
-  {% for post in site.posts %}
-    {% if post.title != page.title and post.author == page.author %}
-	    <a href="{{ post.url | relative_url }}"><h2 class="post-title"> {{ post.title }}</h2></a>
-      {% if post.subtitle %}
-		    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
-	    {% endif %}
-	    <p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-</div>
-</div>
-
 <!-- Post Content -->
 {% include imagezoom.html %}
 
