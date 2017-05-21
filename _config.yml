@@ -4,7 +4,7 @@ description: "Good Days, Good Things"
 repository: "I1820/I1820.github.io"
 
 # Secondary Parameters
-header-img:
+header-img: img/header.jpg
 headercolor: "#FFFFFF"
 logo: img/logo.png
 
