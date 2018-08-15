@@ -1,0 +1,42 @@
+- name: "Parham Alvani"
+  bio: "Software Engineer"
+  role: "Developer @ Middleware"
+  avatar: "https://github.com/1995parham.png"
+  url: "https://1995parham.github.io/"
+  socials:
+    github: "https://github.com/1995parham"
+
+- name: "Iman Tabrizian"
+  bio: "Software Engineer"
+  avatar: "https://github.com/tabrizian.png"
+  url: "https://imantabrizian.me/"
+  socials:
+    github: "https://github.com/tabrizian"
+
+- name: "Elahe Jalalpour"
+  bio: "Hardware Engineer"
+  avatar: "https://github.com/eljalalpour.png"
+  url: "http://ceit.aut.ac.ir/~jalalpour"
+  socials:
+    github: "https://github.com/eljalalpour"
+
+- name: "Sepehr Sabour"
+  bio: "Informaion Technology Engineer"
+  avatar: "https://github.com/pesehr.png"
+  url: "https://pesehr.github.io/"
+  socials:
+    github: "https://github.com/pesehr"
+
+- name: "Sajjad Rahnama"
+  bio: "Software Engineer"
+  avatar: "https://github.com/sajjadrahnama7.png"
+  url: "http://ceit.aut.ac.ir/~sajjad/"
+  socials:
+    github: "https://github.com/sajjadrahnama7"
+
+- name: "Mohammad Hussein Tavakoli Bina"
+  bio: "Electrical Engineer"
+  avatar: "https://github.com/mhtb32.png"
+  url: "http://mhtb.ir/"
+  socials:
+    github: "https://github.com/mhtb32"
