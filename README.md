@@ -1,4 +1,5 @@
 # I1820 Homepage
-[![Build Status](https://travis-ci.org/I1820/I1820.github.io.svg?branch=master)](https://travis-ci.org/I1820/I1820.github.io)
+[![Travis branch](https://img.shields.io/travis/com/I1820/I1820.github.io/master.svg?style=flat-square)](https://travis-ci.com/I1820/I1820.github.io)
 
 ## Introduction
+I1820 Platform Homepage from good old days in Aolab until now.
