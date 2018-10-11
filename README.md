@@ -7,7 +7,7 @@ Since September 2017 we have the support of the Avidnet Technology corporation,
 so we boost our development since then. I want to thanks them here because of their unconditional and endless support.
 
 ## Awesome Lists
-- [HQarroum/awesome-iot](htts://github.com/HQarroum/awesome-iot)
+- [HQarroum/awesome-iot](https://github.com/HQarroum/awesome-iot)
 
 ## Brand Style
 Colors:
