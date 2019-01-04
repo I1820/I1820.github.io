@@ -1,0 +1,70 @@
+/* Responsive Setting */
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    min-width: 1360px;
+  }
+  .content.has-bg .content-bg img {
+    width: 100%;
+  }
+  .action-box .icon-large {
+    font-size: 56px;
+    line-height: 60px;
+    width: 60px;
+  }
+  .content .content-title {
+    font-size: 36px;
+  }
+  p {
+    line-height: 24px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  .pricing-table h3 {
+    font-size: 16px;
+  }
+  .pricing-table .features > li {
+    padding: 15px 0;
+  }
+  .pricing-table .highlight .features > li {
+    padding: 20px 0;
+  }
+  .pricing-table .price .price-number {
+    font-size: 32px;
+  }
+  .pricing-table .price .price-tenure {
+    font-size: 14px;
+  }
+  .pricing-table .price .price-figure {
+    height: 90px;
+  }
+  .tooltip {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  .content {
+    &.has-bg .content-bg img {
+      max-height: 100%;
+      max-width: inherit;
+    }
+    & .content-desc {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .pricing-table.col-4 > li,
+  .pricing-table.col-3 > li {
+    width: 100%;
+  }
+  .pricing-table .highlight {
+    margin-top: 0 !important;
+    padding: 10px !important;
+  }
+}
