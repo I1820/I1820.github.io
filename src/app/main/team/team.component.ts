@@ -79,8 +79,8 @@ export class TeamComponent implements OnInit {
       name: "Mahtab Farrokh",
       roles: ['Intern'],
       bio: "Aolab Member",
-      avatar: "https://github.com/mahtabfarrokh.png"
-      url: ""
+      avatar: "https://github.com/mahtabfarrokh.png",
+      url: "",
       socials: {
         github: "https://github.com/mahtabfarrokh"
       }
@@ -93,6 +93,7 @@ export class TeamComponent implements OnInit {
       socials: {
         github: "https://github.com/RamtinSh7596",
       }
+    }
   ];
 
   constructor() {
