@@ -75,7 +75,24 @@ export class TeamComponent implements OnInit {
       socials: {
         github: "https://github.com/mhtb32",
       }
-    }
+    }, {
+      name: "Mahtab Farrokh",
+      roles: ['Intern'],
+      bio: "Aolab Member",
+      avatar: "https://github.com/mahtabfarrokh.png"
+      url: ""
+      socials: {
+        github: "https://github.com/mahtabfarrokh"
+      }
+    }, {
+      name: "Ramtin Shakeri",
+      roles: ['Intern'],
+      bio: "Aolab Member",
+      avatar: "https://github.com/RamtinSh7596.png",
+      url: "",
+      socials: {
+        github: "https://github.com/RamtinSh7596",
+      }
   ];
 
   constructor() {
