@@ -1,0 +1,35 @@
+<!-- begin container -->
+<div class="container">
+  <h2 class="content-title">I1820 Team</h2>
+  <div class="row m-t-25">
+    <p class="content-desc">
+    </p>
+  </div>
+  <!-- begin row -->
+  <div class="row">
+    <ng-container *ngFor="let member of members">
+      <!-- begin col-4 -->
+      <div class="col-md-4 col-sm-6">
+        <!-- begin team -->
+        <div class="team">
+          <div class="image" data-animation="true" data-animation-type="flipInX">
+            <img src="{{member.avatar}}" alt="{{member.name}}" height="200px" />
+          </div>
+          <div class="info text-center">
+            <h3 class="name">{{ member.name }}</h3>
+            <div class="title text-theme text-center" *ngFor="let role of member.roles">{{ role }}</div>
+            <p>{{ member.bio }}</p>
+            <div class="social text-center">
+              <a *ngIf="member.url != ''" href="{{member.url}}"><i class="fas fa-home fa-lg fa-fw"></i></a>
+              <a *ngFor="let social of member.socials | keyvalue" href="{{social.value}}"><i class="fab fa-{{social.key}} fa-lg fa-fw"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- end team -->
+      </div>
+      <!-- end col-4 -->
+    </ng-container>
+  </div>
+  <!-- end row -->
+</div>
+<!-- end container -->

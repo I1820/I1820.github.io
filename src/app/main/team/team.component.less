@@ -1,0 +1,89 @@
+@import '../../../assets/less/_mixins';
+
+:host {
+  display: block;
+}
+
+.team-quote {
+  ::ng-deep &.quote {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: #757575;
+
+    & small {
+      display: block;
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    ::ng-deep &.quote {
+      font-size: 36px;
+
+      & small {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.team {
+  text-align: center;
+  padding: 0 30px;
+
+
+  & .image {
+    display: inline-block;
+    .border-radius(300px);
+    overflow: hidden;
+
+    & img {
+      .border-radius(300px);
+    }
+  }
+  & .info {
+    margin-top: 15px;
+  }
+  & .name {
+    margin-bottom: 10px;
+  }
+  & .title {
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  & p {
+    margin-bottom: 15px;
+  }
+  & .social a {
+    border-radius: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    color: #ccc;
+
+    & + a {
+      margin-left: 5px;
+    }
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .team .title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team {
+    margin-bottom: 30px;
+  }
+}
