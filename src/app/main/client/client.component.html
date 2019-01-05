@@ -1,0 +1,22 @@
+<!-- begin content-bg -->
+<div class="content-bg">
+  <img src="assets/img/bg/bg-client.jpg" alt="Client" />
+</div>
+<!-- end content-bg -->
+<!-- begin container -->
+<div class="container" data-animation="true" data-animation-type="fadeInUp">
+  <h2 class="content-title">Our Client Testimonials</h2>
+  <ngb-carousel *ngIf="clients" class="testimonials" [showNavigationArrows]="false">
+    <ng-template *ngFor="let client of clients" ngbSlide>
+      <div class="text-center item">
+        <blockquote>
+          <i class="fa fa-quote-left"></i>
+          <span [innerHTML]="client.quote"></span>
+          <i class="fa fa-quote-right"></i>
+        </blockquote>
+        <div class="name text-center"> — <span class="text-theme">{{ client.name }}</span>, {{ client.title }}</div>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+<!-- end containter -->
