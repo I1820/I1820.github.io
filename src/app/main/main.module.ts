@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { QuoteComponent } from './quote/quote.component';
 import { TeamComponent } from './team/team.component';
+import { ClientComponent } from './client/client.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -19,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     QuoteComponent,
     TeamComponent,
+    ClientComponent,
     ContactComponent,
     FooterComponent,
   ],
