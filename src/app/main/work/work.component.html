@@ -1,0 +1,29 @@
+<!-- begin container -->
+<div class="container" data-animation="true" data-animation-type="nDown">
+  <h2 class="content-title">Where does I1820 work?</h2>
+  <p class="content-desc">
+    These companies and institutions use I1820 in somewhere in their IoT solution
+  </p>
+  <!-- begin row -->
+  <div class="row row-space-10">
+    <ng-container *ngFor="let work of works">
+      <!-- begin col-3 -->
+      <div class="col-md-3 col-sm-6">
+        <!-- begin work -->
+        <div class="work">
+          <div class="image">
+            <a href="{{ work.href }}"><img src="{{ work.image }}" alt="{{ work.title }}" height="200px" /></a>
+          </div>
+          <div class="desc">
+            <span class="desc-title">{{ work.title }}</span>
+            <span class="desc-text">{{ work.description }}</span>
+          </div>
+        </div>
+        <!-- end work -->
+      </div>
+      <!-- end col-3 -->
+    </ng-container>
+  </div>
+  <!-- end row -->
+</div>
+<!-- end container -->
