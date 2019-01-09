@@ -14,6 +14,11 @@ Colors:
 - [#F36F21 Vivid orange](https://www.colorhexa.com/f36f21)
 - [#555555 Very dark gray](https://www.colorhexa.com/555555)
 
+Fonts:
+- [Butterbelly-Regular]
+- [Agency-FB-Regular]
+- [Agency-FB-Bold[
+
 ## Architecture
 I1820 platform architecture can be seen in the following figure. For more detailed information, please see our website
 or contanct me with my [email](mailto:parham.alvani@gmail.com).
