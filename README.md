@@ -15,9 +15,9 @@ Colors:
 - [#555555 Very dark gray](https://www.colorhexa.com/555555)
 
 Fonts:
-- [Butterbelly-Regular]
-- [Agency-FB-Regular]
-- [Agency-FB-Bold]
+- [Butterbelly-Regular](branding/fonts/Butterbelly-Regular.ttf)
+- [Agency-FB-Regular](branding/fonts/AGENCYR.TTF)
+- [Agency-FB-Bold](branding/fonts/AGENCYB.TTF)
 
 ## Architecture
 I1820 platform architecture can be seen in the following figure. For more detailed information, please see our website
