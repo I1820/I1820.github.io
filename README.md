@@ -17,7 +17,7 @@ Colors:
 Fonts:
 - [Butterbelly-Regular]
 - [Agency-FB-Regular]
-- [Agency-FB-Bold[
+- [Agency-FB-Bold]
 
 ## Architecture
 I1820 platform architecture can be seen in the following figure. For more detailed information, please see our website
