@@ -51,7 +51,7 @@ export class TeamComponent implements OnInit {
     }, {
       name: 'Sepehr Sabour',
       roles: ['Frontend Developer'],
-      bio: 'A Friend',
+      bio: 'AIoTRC Member',
       avatar: 'https://github.com/pesehr.png',
       url: 'https://pesehr.github.io/',
       socials: {
@@ -60,7 +60,7 @@ export class TeamComponent implements OnInit {
     }, {
       name: 'Sajjad Rahnama',
       roles: ['Backend Developer'],
-      bio: 'A Friend',
+      bio: 'AIoTRC Member',
       avatar: 'https://github.com/sajjadrahnama7.png',
       url: 'http://sajjadrahnama7.github.io/',
       socials: {
@@ -69,7 +69,7 @@ export class TeamComponent implements OnInit {
     }, {
       name: 'Mohammad Hussein Tavakoli Bina',
       roles: ['Product Manager'],
-      bio: 'A Manager',
+      bio: 'Nahal CEO',
       avatar: 'https://github.com/mhtb32.png',
       url: 'http://mhtb.ir/',
       socials: {
