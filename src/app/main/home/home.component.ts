@@ -6,7 +6,7 @@ import { Component, OnInit, HostBinding, HostListener } from '@angular/core';
   styleUrls: ['./home.component.less']
 })
 export class HomeComponent implements OnInit {
-  @HostBinding('attr.class') elementClasses = 'section-container p-0 bg-black-darker';
+  @HostBinding('attr.class') elementClasses = 'content has-bg home';
   @HostBinding('style.height.px') elementHeight = window.innerHeight;
 
   @HostListener('window:resize', ['$event'])

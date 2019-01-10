@@ -96,21 +96,16 @@
 }
 
 
-.bg-cover-img {
-}
-
 .home-background {
-  height: 100%;
-  background-color: #757575;
+  overflow: hidden;
+  position: relative;
 
   & img {
-    display: block;
     max-height: 100%;
-    margin: auto;
+    max-width: 100%;
   }
 
   &:after {
-    content: '';
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0;
