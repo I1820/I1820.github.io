@@ -93,6 +93,15 @@ export class TeamComponent implements OnInit {
       socials: {
         github: 'https://github.com/RamtinSh7596',
       }
+    }, {
+      name: 'Mohammad Taha Mehrabbeygi',
+      roles: ['Designer'],
+      bio: 'Avidnet Member',
+      avatar: 'https://github.com/mtaha1996.png',
+      url: '',
+      socials: {
+        github: 'https://github.com/mtaha1996',
+      }
     }
   ];
 
