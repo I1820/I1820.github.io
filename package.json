@@ -7,7 +7,6 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "publish": "ng build --prod --base-href '/' && npx ngh --dir=dist/i1820 --branch=master --cname='i1820.org' -S",
     "e2e": "ng e2e"
   },
   "private": true,
