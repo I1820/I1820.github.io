@@ -2,12 +2,6 @@
 
 > When a friend leaves you, you move on. When a best friend leaves you, part of you is gone.
 
-## Roadmap
-
-The followin comic shows The I1820 Project :joy:
-
-![Project Road Map](https://www.monkeyuser.com/assets/images/2017/45-code-progression.png)
-
 ## Introduction
 
 I1820 Platform Homepage from good old days in Aolab until now.
