@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@andrei4ik/ngx-scroll-to": "^17.0.3",
     "@angular/animations": "~17.2.3",
     "@angular/common": "~17.2.3",
     "@angular/compiler": "~17.2.3",
@@ -21,7 +22,6 @@
     "@angular/router": "~17.2.3",
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@ng-bootstrap/ng-bootstrap": "^16.0.0",
-    "@nicky-lenaers/ngx-scroll-to": "^14.0.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "core-js": "^3.36.0",
@@ -38,7 +38,7 @@
     "@types/jasminewd2": "~2.0.13",
     "@types/node": "~20.11.24",
     "angular-cli-ghpages": "^1.0.7",
-    "codelyzer": "^0.0.28",
+    "codelyzer": "^6.0.2",
     "jasmine-core": "~5.1.2",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.4.3",
@@ -46,7 +46,6 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
-    "protractor": "^3.3.0",
     "ts-node": "~10.9.2",
     "tslint": "~5.20.1",
     "typescript": "~5.3.3"
