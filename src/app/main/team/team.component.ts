@@ -83,7 +83,7 @@ export class TeamComponent implements OnInit {
     {
       name: "Ramtin Shakeri",
       roles: ["Intern"],
-      avatar: "",
+      avatar: "https://github.com/ghost.png",
       url: "",
       socials: {},
     },
