@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "i1820"
+  "defaultProject": "i1820",
+  "cli": {
+    "analytics": "3b42e609-2f1b-462b-84ef-a3cb737584af"
+  }
 }
